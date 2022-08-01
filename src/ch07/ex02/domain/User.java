@@ -1,0 +1,19 @@
+package ch07.ex02.domain;
+
+public class User {
+	private String name;
+	
+	public User(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return this.name;
+	}
+}
+/*
+	peristence layer 	Dao
+	service layer		Service
+	presentation layer  IO  
+*/  
